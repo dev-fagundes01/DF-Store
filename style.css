@@ -41,6 +41,12 @@ ul {
     list-style: none;
 }
 
+.cell-phones {
+    grid-column: 1 / 4;
+    height: 25rem;
+    border-radius: 5px;
+}
+
 li {
     border: 5px solid red;
     padding: 5px;

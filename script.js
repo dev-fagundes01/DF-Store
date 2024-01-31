@@ -2,7 +2,6 @@ const list = document.querySelector("ul");
 const buttonShowAll = document.querySelector('.show-all')
 const buttonRemove10Percent = document.querySelector('.remove-percent')
 const buttonTotalValue = document.querySelector('.calculate-total-value')
-// const buttonFilterType = document.querySelector('.filter-type')
 const select = document.getElementById('system-select')
 
 function formatCurrency(currency) {
