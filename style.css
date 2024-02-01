@@ -12,13 +12,17 @@ body {background-color: #443e3e;}
     justify-content: center;
     gap: 20px;
     margin: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 button, select {
-    background-color: #79cb15;
+    background-color: #4e86d9;
     border: none;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
     padding: 10px;
     font-weight: bold;
     width: auto;
@@ -30,14 +34,15 @@ button:hover {opacity: 0.8;}
 h1 {
     color: #ffffff;
     text-align: center;
-    margin-top: 5rem;
+    margin: 6rem 0 2rem 0;
 }
 
 ul {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+    margin-bottom: 1rem;
     list-style: none;
 }
 
@@ -48,7 +53,7 @@ ul {
 }
 
 li {
-    border: 5px solid red;
+    border: 2px solid red;
     padding: 5px;
 }
 
@@ -63,5 +68,7 @@ p {color: #ffffff;}
     font-weight: bold;
     color: #79cb15;
 }
+
+.item-price-discount {color: #4e86d9;}
 
 .total-value {grid-column: 2;}
