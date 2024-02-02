@@ -7,5 +7,8 @@ const products = [
   { name: "LG K10", price: 499, system: 'Android', src: "./img/celular-smartphone-lg-k10-F.jpg" },
   { name: "Motorola One", price: 1169, system: 'Android', src: "./img/smartphone-motorola-one-xt.jpg" },
   { name: "iPhone 6s", price: 899, system: 'IOS', src: "./img/celular-apple-iphone-6s.jpg" },
-  { name: "Motorola g9 Power", price: 1199, system: 'Android', src: "./img/celular-samsung-galaxy-note-9-.jpg" }
+  { name: "Motorola g9 Power", price: 1199, system: 'Android', src: "./img/celular-motorola-g9-power.jpg" },
+  { name: "iPhone X", price: 3199, system: 'IOS', src: "./img/apple-iphone-x-256gb.jpeg" },
+  { name: "Huawei P20", price: 1219, system: 'Android', src: "./img/celular-huawei-p20-lite-D.jpg" },
+  { name: "Galaxy A02s", price: 799, system: 'Android', src: "./img/celular-samsung-galaxy-a02s.jpg" }
 ];
